@@ -1,3 +1,5 @@
+const baseUrl = import.meta.env.BASE_URL
+
 export const profile = {
   name: 'Arun Soni',
   title: 'Technical Lead',
@@ -5,7 +7,7 @@ export const profile = {
   phone: '+91-93010-85339',
   email: 'arun.soni.260695@gmail.com',
   linkedin: 'linkedin.com/in/arun-soni-099291137',
-  image: '/assets/arun-profile.jpg',
+  image: `${baseUrl}assets/arun-profile.jpg`,
   summary:
     'Highly skilled software engineer with 8 years of experience in full stack development, technical leadership, and delivery of complex software solutions. Strong in coding standards, testing practices, documentation, agile collaboration, risk management, and mentoring cross-functional teams.',
   highlights: [
