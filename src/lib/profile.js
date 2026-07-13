@@ -13,7 +13,7 @@ export const profile = {
   highlights: [
     { value: '8+', label: 'Years building software' },
     { value: '4', label: 'Companies served' },
-    { value: '3+', label: 'Large product builds' },
+    { value: '4+', label: 'Large product builds' },
     { value: 'AI', label: 'OpenAI platform work' }
   ],
   education: [
@@ -81,6 +81,35 @@ export const profile = {
     'Elasticsearch'
   ],
   projects: [
+    {
+      name: 'AI Calling Agent',
+      overview:
+        'AI-powered calling platform for real-time voice conversations, automated outbound and inbound call flows, analytics, authentication, payments, and operational dashboards.',
+      technologies: [
+        'React',
+        'TypeScript',
+        'Vite',
+        'Tailwind CSS',
+        'Radix UI',
+        'Express.js',
+        'WebSockets',
+        'Twilio',
+        'Plivo',
+        'ElevenLabs',
+        'OpenAI Realtime',
+        'PostgreSQL',
+        'Drizzle ORM',
+        'JWT',
+        'Stripe',
+        'Razorpay',
+        'PM2'
+      ],
+      role: [
+        'Built a full-stack TypeScript architecture across React, Vite, Express.js, PostgreSQL, and Drizzle ORM.',
+        'Integrated real-time voice and communication services using WebSockets, Twilio, Plivo, ElevenLabs, and OpenAI Realtime.',
+        'Implemented secure sessions, payment workflows, dashboard data handling, charts, forms, tooling, and production process management.'
+      ]
+    },
     {
       name: 'AI Assistant',
       overview:
